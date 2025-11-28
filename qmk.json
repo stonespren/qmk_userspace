@@ -1,4 +1,21 @@
 {
     "userspace_version": "1.1",
-    "build_targets": []
+    "build_targets": [
+        [
+            "splitkb/halcyon/corne/rev2",
+            "stonespren",
+            {
+                "HLC_TFT_DISPLAY": "1",
+                "TARGET": "stonespren-left"
+            }
+        ],
+        [
+            "splitkb/halcyon/corne/rev2",
+            "stonespren",
+            {
+                "HLC_CIRQUE_TRACKPAD": "1",
+                "TARGET": "stonespren-right"
+            }
+        ]
+    ]
 }
