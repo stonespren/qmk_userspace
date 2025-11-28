@@ -6,7 +6,7 @@
             "stonespren",
             {
                 "HLC_TFT_DISPLAY": "1",
-                "TARGET": "stonespren-left"
+                "TARGET": "stonespren_left"
             }
         ],
         [
@@ -14,7 +14,7 @@
             "stonespren",
             {
                 "HLC_CIRQUE_TRACKPAD": "1",
-                "TARGET": "stonespren-right"
+                "TARGET": "stonespren_right"
             }
         ]
     ]
