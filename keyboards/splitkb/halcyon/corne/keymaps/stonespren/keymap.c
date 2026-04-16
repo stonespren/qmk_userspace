@@ -82,8 +82,8 @@ report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
         // Convert trackpad movement to scroll, scaled down by divisor
         // Vertical movement (y) → vertical scroll (v)
         // Horizontal movement (x) → horizontal scroll (h)
-        mouse_report.v = mouse_report.y / SCROLL_DIVISOR;
-        mouse_report.h = mouse_report.x / SCROLL_DIVISOR;
+        mouse_report.v = -(mouse_report.y / SCROLL_DIVISOR);
+        mouse_report.h = -(mouse_report.x / SCROLL_DIVISOR);
 
         // Disable cursor movement while scrolling
         mouse_report.x = 0;
